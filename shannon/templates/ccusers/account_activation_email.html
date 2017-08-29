@@ -1,0 +1,12 @@
+{% load i18n %}
+{% autoescape off %}
+    Hi {{ user.username }},
+    Please click on the link below to confirm your registration:
+<!--{{ protocol }}://{{ domain }}127.0.0.1:8000/{% url 'ccusers:password_reset_confirm' uid token %}-->
+<ul>
+    <li><a href=" https://127.0.0.1:8000/{% url 'ccusers:activation' token=token uid64=uid  %}">
+        http://127.0.0.1:8000{% url 'ccusers:activation' token=token uid64=uid  %}
+    </a>
+    </li>
+</ul>
+{% endautoescape %}
