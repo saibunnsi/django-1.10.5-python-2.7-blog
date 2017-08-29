@@ -52,7 +52,7 @@ reference:
 ### function: 400,500 error page configure 
 reference:  http://blog.csdn.net/goupper1991/article/details/50736826
 
-### post api
+### function: post api
 app: django-rest-framework (0.1.0)
 reference:
   1.CodingEntrepreneurs: django-rest-framework series:
