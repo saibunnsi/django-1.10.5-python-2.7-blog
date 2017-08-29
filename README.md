@@ -1,5 +1,5 @@
 # django-1.10.5-python-2.7-blog
-still a porter, aim to be a maker!
+## still a porter, aim to be a maker!
 Since I'm totally new to django and python, I suffered a lot when building this project. To achieve some basic functions for my blog and to fix those annoying bugs, I googled again and again. And here is a list of what I searched. 
 
 
